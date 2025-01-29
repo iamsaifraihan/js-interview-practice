@@ -4,5 +4,11 @@ Write a function in JavaScript that takes two objects as input and merges them i
 
 ## Examples:
 
-- Add your examples here.
+```javaScript
+// Input
+const obj1 = { a: 1, b: 2 };
+const obj2 = { b: 3, c: 4 };
 
+// Output
+const mergedObj = { a: 1, b: 2, c: 4 };
+```
