@@ -1,7 +1,8 @@
 // Solution for: reverse the order of words 
 
-function solution() {
-  // Write your solution here
+function reverseString(str) {
+  return str.split(' ').reverse().join(' ');
 }
 
-module.exports = solution;
+module.exports = reverseString;
+console.log(reverseString('saif Raihan Ashraf'));
